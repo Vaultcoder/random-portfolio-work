@@ -1,0 +1,1049 @@
+*{
+	padding: 0;
+	margin: 0;
+	/*font-family: 'Open Sans', sans-serif;*/
+}
+body{
+ 	width: 100%;
+ 	font-family: "Merriweather";
+}
+.wrapper{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+.menu-replacer{
+	height: 60px;
+}
+.menu{
+	position: fixed;
+	font-family: 'Play', sans-serif;
+	height: 60px;
+	background: #003366;
+	color: white;
+	width: 100%;
+	z-index: 2;	
+}
+.menu-init{
+	margin-top: -1px;
+	font-size: 24px;
+}
+.tmenu-left{
+	float: left;
+	width: 35px;
+	padding-right: 10px;
+	padding-left: 10px;
+	height: 30px;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	margin-left: 30px;
+	margin-top: 15px;
+	font-size: 24px;
+
+}
+.tlist{
+	display: inline-block;
+	float: left;
+	text-decoration: none;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.l{
+	width: 13px;
+}
+.k{
+	width: 20px;
+}
+.menu-right{
+	/*border: 1px solid black;*/
+	width: auto;
+	float: right;
+	font-size: 24px;
+	margin-right: 20px;
+	margin-top: 15px;
+
+}
+.list-style{
+	width: 100px;
+	height: 30px;
+	/*border: 1px solid black;*/
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	text-align: center;
+	margin-left: -7px;
+	margin-top: 4px;
+
+}
+#menu-hover1{
+	margin-right: 1px;
+}
+.test-size{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+.menu-texpos{
+	margin-top: -4px;
+}
+.menu-list{
+	 display: inline-block;
+	 position: relative;
+	 text-decoration: none;
+}
+.menu-link{
+	float: right;
+	width: 100px;
+	text-align: center;
+	margin-top: -2px;
+}
+.to-top{
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	background: red;
+	position: a
+
+}
+/*-------------------*/
+.header{
+	width: 100%;
+	height: auto;
+	min-height: 300px;
+
+}
+.header-pos{
+	margin: 0 auto;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	width: 300px;
+}
+.title-pos{
+
+}
+.header-title{
+	width: 250px;
+	font-size: 30px;
+	font-family: 'Merriweather', sans-serif;
+	margin: 0 auto;
+}
+.about{
+	width: 100%;
+	height: auto;
+	min-height: 300px;
+
+}
+.about-pos{
+	max-width: 1100px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 200px;
+
+}
+.about-text{
+	padding: 15px;
+	font-size: 20px;
+}
+/*------------------*/
+.keycap{
+	/*border: 1px solid black;*/
+	width: 200px;
+	height: 200px;
+	margin-top: 0px;
+	/*position: absolute;*/
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+.keycap-box{
+	border: 2px solid black;
+	width: 70px;
+	height: 70px;
+	-ms-transform: rotate(40deg); /* IE 9 */
+    -webkit-transform: rotate(40deg); /* Chrome, Safari, Opera */
+    transform: rotate(40deg);
+   	background-color: white;
+   	display: block;
+   	position: absolute;
+   	z-index: 1;
+	margin-top: 5px;
+   	margin-left: 63px;
+}
+.keycap-box-lower{
+	border: 2px solid black;
+	width: 77px;
+	height: 77px;
+	margin-top: 55px;
+	margin-left: 55px;
+	-ms-transform: rotate(40deg); /* IE 9 */
+    -webkit-transform: rotate(40deg); /* Chrome, Safari, Opera */
+    transform: rotate(40deg);
+    position: absolute;
+}
+.keycap-box-one{
+	border: 1px solid black;
+	width: 51px;
+	position: absolute;
+   	margin-top: 72px;
+   	margin-left: 18px;
+	-ms-transform: rotate(100deg); /* IE 9 */
+    -webkit-transform: rotate(100deg); /* Chrome, Safari, Opera */
+    transform: rotate(100deg);
+}
+.keycap-box-two{
+	border: 1px solid black;
+	width: 51px;
+	position: absolute;
+   	margin-top: 63px;
+   	margin-left: 124px;
+	-ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);	
+}
+.keycap-box-tree{
+	border: 1px solid black;
+	width: 55px;
+	position: absolute;
+   	margin-top: 120px;
+   	margin-left: 74px;
+	-ms-transform: rotate(93deg); /* IE 9 */
+    -webkit-transform: rotate(93deg); /* Chrome, Safari, Opera */
+    transform: rotate(93deg);	
+}
+/*				<!-- <div class="keycap">
+					<div class="keycap-box"></div>
+					<div class="keycap-box-lower"></div>
+					<div class="keycap-box-one"></div>
+					<div class="keycap-box-two"></div>
+					<div class="keycap-box-tree"></div>				
+				</div> -->*/
+/*------------------*/
+.work{
+	width: 100%;
+	min-height: 700px;
+	min-height: 1000px;
+	background-color: white;
+	/*border-bottom: 1px solid black;	*/
+	display: inline-block;
+}
+.projekt-shape{
+
+}
+.projekt-shape-top{
+
+}
+.projekt-shape-bottom{
+
+}
+.skillz{
+	width: 100%;
+	height: auto;
+	min-height: 200px;
+	background-color: white;
+}
+.skillz-pos{
+	max-width: 1100px;
+	height: auto;
+	min-height: 200px;
+	background: white;
+	margin: 0 auto;
+	margin-top: -10px;
+	margin-bottom: 700px;
+	margin-top: -200px;
+
+}
+.skillz-text{
+	margin-top: 200px;
+	margin-bottom: 200px;
+	height: auto;
+	max-width: 1100px;
+	/*border: 1px solid black;*/
+	padding: 15px;
+	font-size: 20px;
+
+}
+.skillz-backend{
+
+}
+.skillz-fronend{
+
+}
+.name-worth{
+
+}
+.my-img-pos{
+	width: 100%;
+	height: 710px;
+	/*top: 22px;*/
+	overflow: hidden;
+	/*margin-top: -100px;*/
+	position: absolute;
+	/*margin: 0 auto;*/
+	/*margin-top: -510px;*/
+	/*margin-top: -1020px;*/
+	/*margin-top: 2620px;*/
+}
+.my-img{
+	margin-top: -300px;
+	/*margin-left: 200px;*/
+	width: 1906px;
+	height: 1300px;
+	/*width: 1160px;*/
+	/*height: 800px;*/
+	opacity: 0.3
+	
+}
+.contact{
+	position: relative;
+	width: 100%;
+	min-height: 590px;
+	background-color: #003366;
+	height: auto;
+	color: white;
+	overflow: hidden;
+	font-family: 'Play', sans-serif;
+}
+.contact-pos{
+	max-width: 1100px;
+	height: auto;
+	margin: 0 auto;
+}
+.contact-me{
+	margin-top: 30px;
+	width: 420px;
+	height: 150px;
+	float: left;
+	margin-left: 120px;
+	text-align: center;
+}
+.contact-cv{
+	margin-top: 30px;
+	width: 360px;
+	height: 150px;
+	float: right;
+	margin-right: 180px;
+	text-align: center;
+}
+.contact-title{
+	font-size: 25px;	
+}
+.contact-mail{
+	/*font-weight: bold;*/
+	font-size: 25px;
+
+}
+.mail-icon{
+	margin-right: 10px;
+}
+.contact-link{
+
+}
+.contact-download{
+	/*font-weight: bold;*/
+	font-size: 25px;
+}
+.download-button{
+
+	margin-right: 10px;
+	color: white;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.copy{
+	position: absolute;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	margin-top: 105px;
+
+}
+.projekt-pos{
+	max-width: 1400px;
+	height: auto;
+	height: 700px;
+	margin: 0 auto;
+	margin-bottom: -10px;
+	transition: width 0.5s;
+}
+.projekt-box{
+	overflow: hidden;
+	width: 350px;
+	height: 350px;
+	display: inline;
+	float: left;
+	position: relative;
+}
+.projekt-slid{
+	width: 350px;
+	height: 350px;
+	background-color: red;
+	/*z-index: 5;*/
+	position: absolute;
+	top: 350px;
+	/*display: none;*/
+	background-color: rgba(0, 51, 102, 0.7);
+
+}
+.projekt-boxname{
+	position: absolute;
+}
+.projekt-boxicon{
+	margin-left: 10px;
+	margin-top: 10px;
+	position: absolute;
+	z-index: 1;
+}
+.porjekt-boximg{
+	position: absolute;
+	z-index: ;
+
+}
+.projekt-boxtext{
+	/*position: absolute;*/
+	margin: 0 auto;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	margin-top: 75px;
+	/*background-color: rgba(0, 51, 102, 0.5);*/
+	/*padding: 10px;*/
+	/*margin-top: 200px;*/
+	/*z-index: 1;*/
+	/*opacity: none;*/
+	color: white;
+
+
+}
+/*--------test--------*/
+.projekt-hexa{
+	width: 366px;
+	height: 366px;
+	/*border: 1px solid black;*/
+	margin-left: 300px;
+	position: absolute;
+	-ms-transform: rotate(45deg); /* IE 9 */
+	-webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+	transform: rotate(45deg);	
+
+}
+.part1{
+	height: 180px;
+	width: 180px;
+	background: white;
+	position: absolute;
+	margin-left: 186px;
+}
+.part2{
+	position: absolute;
+	height: 180px;
+	width: 180px;
+	background: white;
+	margin-left: 186px;
+	margin-top: 186px;
+}
+.part3{
+	position: absolute;
+	height: 180px;
+	width: 180px;
+	background: green;	
+}
+.part4{
+	position: absolute;
+	height: 180px;
+	width: 180px;
+	background: gray;
+	margin-top: 186px;
+}	
+/*------------ moblie ----------*/
+@media screen and (max-width: 1340px) {
+	.bell-pos{
+
+	}
+	.church-pos{
+
+	}
+	.marin-pos{
+
+	}
+	.crane-pos{
+		float: left;
+		width: 25%
+	}	
+	.projekt-pos{
+		width: 900px;
+		margin: 0 auto;
+	}
+	.contact{
+		width: 100%;
+		/*background-color: green;*/
+		height: 150px;
+	}
+	.contact-me{
+		margin: 0 auto;
+		width: 100%;
+		margin-top: 20px;
+	}
+	.contact-cv{
+		margin: 0 auto;
+		width: 100%;
+		margin-top: 20px;
+	}
+}
+@media screen and (max-width: 992px) {
+	.projekt-pos{
+		width: 300px;
+		margin: 0 auto;
+	}
+    .contact{
+		width: 100%;
+		height: 150px;
+		display: block;
+	}
+}
+@media screen and (max-width: 700px) {
+	.projekt-pos{
+		width: 300px;
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 480px) {
+	.projekt-pos{
+		width: 300px;
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 320px) {
+	.projekt-pos{
+		width: 300px;
+		margin: 0 auto;
+	}
+}
+
+
+
+/*--------Karlskrona-------*/
+
+/*orange, vit och blå!*/
+.bell-pos{
+	float: right;
+	width: 25%;
+	margin-top: -128px;
+	margin-right: -40px;
+}
+.church-pos{
+
+}
+.marin-pos{
+	float: left;
+	width: 25%;
+	margin-top: 62px;
+	margin-left: 220px;
+	width: 1000px;
+	height: 1000px;
+	background: red;
+}
+.crane-pos{
+	float: left;
+	width: 25%
+}
+.crane{
+}
+.crane-bottom {
+	border-bottom: 120px solid orange;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	height: 0;
+	width: 100px;
+	position: absolute;
+	margin-top: 270px;
+	margin-left: 105px;
+}
+.crane-square{
+	width: 100px;
+	height: 80px;
+	background: orange;
+	margin-left: 125px;
+	margin-top: 185px;
+	position: absolute;
+}
+.crane-roof1{
+	width: 0;
+	height: 0;
+	border-bottom: 30px solid black;
+	border-left: 20px solid transparent;
+	position: absolute;
+	margin-left: 125px;
+	margin-top: 150px;
+}
+.crane-roof2{
+
+	width: 0;
+	height: 0;
+	border-bottom: 30px solid black;
+	border-right: 80px solid transparent;
+	position: absolute;
+	margin-left: 145px;
+	margin-top: 150px;
+
+}
+.crane-roof3{
+	width: 0;
+	height: 0;
+	border-bottom: 83px solid green;
+	border-left: 40px solid transparent;
+	position: absolute;
+	margin-left: 170px;
+	margin-top: 119px;
+	transform: rotate(265deg);
+}
+.crane-arm1{
+	width: 0;
+	height: 0;
+	border-bottom: 160px solid green;
+	border-left: 60px solid transparent;
+	position: absolute;
+	margin-left: 230px;
+	margin-top: 110px;
+	transform: rotate(180deg);
+}
+.crane-arm2{
+	width: 0;
+	height: 0;
+	border-bottom: 65px solid green;
+	border-left: 130px solid transparent;
+	position: absolute;
+	margin-left: 145px;
+	margin-top: 80px;
+
+}
+.crame-square{
+	width: 35px;
+	height: 35px;
+	background: green;
+	position: absolute;
+	margin-left: 268px;
+	margin-top: 76px;
+	transform: rotate(60deg);
+}
+.crane-window1{
+	z-index: 1;
+	width: 20px;
+	height: 20px;
+	background: black;
+	margin: 0 auto;
+	margin-top: 30px;
+
+
+}
+.crane-window2{
+	z-index: 1;
+	width: 20px;
+	height: 20px;
+	background: black;
+	margin: 0 auto;
+	margin-top: 30px;
+
+}
+.church{
+}
+.church-bottom{
+	background: orange;
+	margin-top: 200px;
+	width: 140px;
+	height: 130px;
+	position: absolute;
+}	
+.church-wall-b1{
+	background: orange;
+	margin-top: 200px;
+	width: 50px;
+	height: 130px;
+	position: absolute;
+	margin-left: 145px;
+}
+.church-wall-b2{
+	background: orange;
+	margin-top: 200px;
+	width: 50px;
+	height: 130px;
+	position: absolute;
+	margin-left: -55px;
+}
+.church-top{
+	background: orange;
+	margin-top: 115px;
+	width: 140px;
+	height: 80px;
+	position: absolute;
+}
+.church-wall-t1{
+	background: orange;
+	margin-top: 115px;
+	margin-left: -55px;
+	width: 50px;
+	height: 80px;
+	position: absolute;
+}
+.church-wall-t2{
+	margin-left: 145px;	
+	background: orange;
+	margin-top: 115px;
+	width: 50px;
+	height: 80px;
+	position: absolute;
+}
+.church-wall-t11{
+	margin-left: 145px;	
+	background: orange;
+	margin-top: 30px;
+	width: 50px;
+	height: 80px;
+	position: absolute;
+}
+.church-wall-t22{
+	margin-left: -55px;	
+	background: orange;
+	margin-top: 30px;
+	width: 50px;
+	height: 80px;
+	position: absolute;
+}
+.church-roof-main{
+	width: 0;
+	height: 0;
+	border-left: 70px solid transparent;
+	border-right: 70px solid transparent;
+	border-bottom: 40px solid green;
+
+	position: absolute;
+	margin-left: px;
+	margin-top: 70px;
+	/*transform: rotate(265deg);*/
+}
+.church-roof1{
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 20px solid green;
+	position: absolute;
+	margin-left: 140px;
+	margin-top: 5px;
+}
+.church-roof2{
+	margin-left: -60px;
+	margin-top: 5px;
+
+}
+.church-window-top{
+	background: black;
+	width: 20px;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 30px;
+	
+
+}
+.church-top-window{
+	width: 20px;
+	height: 20px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: absolute;
+	margin-top: -10px;
+}
+.church-door{
+	height: 50px;
+	width: 30px;
+	margin: 0 auto;
+	background: black;
+	margin-top: 75px;
+	border: 5px solid #003366;
+	border-bottom: none;
+}
+.marin{
+}
+.piller{	
+	width: 20px;
+	height: 130px;
+	background: white;
+	position: absolute;
+	margin-top: 100px;
+}
+.marin-p1{
+	margin-left: 20px;
+}
+.marin-p2{
+	margin-left: 90px;
+}
+.marin-p3{
+	margin-left: 160px;
+}
+.marin-p4{
+	margin-left: 230px;
+}
+.marin-top{
+	background: white;
+	margin-top: 80px;
+	position: absolute;
+	margin-left: 20px;
+	width: 230px;
+	height: 20px;
+}
+.marin-roof1{
+	width: 0;
+	height: 0;
+	border-left: 115px solid transparent;
+	border-right: 115px solid transparent;
+	border-bottom: 50px solid white;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 30px;
+	z-index: 1;
+
+}
+.marin-roof2{
+	width: 0;
+	height: 0;
+	border-left: 124px solid transparent;
+	border-right: 124px solid transparent;
+	border-bottom: 56px solid black;
+	position: absolute;
+	margin-left: 11px;
+	margin-top: 24px;
+
+}
+.marin-window{
+	/*background: #003366;*/
+	/*background: red;*/
+	width: 50px;
+	height: 130px;
+	margin-left: 40px;
+	margin-top: 100px;
+	position: absolute;
+}
+.marin-window1{
+	/*background: #003366;*/
+	/*background: red;*/
+	width: 50px;
+	height: 130px;
+	margin-left: 110px;
+	margin-top: 100px;
+	position: absolute;
+}
+.marin-window2{
+	/*background: #003366;*/
+	/*background: red;*/
+	width: 50px;
+	height: 130px;
+	margin-left: 180px;
+	margin-top: 100px;
+	position: absolute;
+}
+.marin-windowleft{
+	width: 24px;
+	height: 13px;
+	/*border-bottom: 2px solid black;*/
+	border-top: 2px solid black;
+	margin-top: 10px;
+}
+.marin-windowright{
+	width: 24px;
+	height: 13px;
+	border-bottom: 2px solid black;
+	/*border-top: 2px solid black;*/
+	margin-top: 8px;
+	padding-bottom: 2px;
+	padding-top: 0px;
+}
+.marin-windowleft1{
+	float: left;
+	width: 24px;
+	height: 130px;
+	/*background: blue;*/
+	border-right: 1px solid black;
+}
+.marin-windowright1{
+	float: right;
+	width: 24px;
+	height: 130px;
+	/*background: green;*/
+	border-left: 1px solid black;
+}
+.bell{
+}
+.bell-bottom-b1{
+	width: 10px;
+	height: 150px;
+	transform: rotate(11deg);
+	background: white;
+	position: absolute;
+	margin-left: 105px;
+	margin-top: 270px;
+}
+.bell-bottom-b2{
+	width: 10px;
+	height: 150px;
+	transform: rotate(-11deg);
+	background: white;
+	position: absolute;
+	margin-left: 255px;
+	margin-top: 270px;
+}
+.bell-bottom-b3{
+	width: 10px;
+	height: 20px;
+	background: white;
+	position: absolute;
+	margin-left: 120px;
+	margin-top: 245px;
+}
+.bell-bottom-b4{
+	width: 10px;
+	height: 20px;
+	background: white;
+	position: absolute;
+	margin-left: 240px;
+	margin-top: 245px;
+}
+.bell-bottom-r1{
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 30px solid white;
+	position: absolute;
+	margin-left: 120px;
+	margin-top: 210px;
+}
+.bell-bottom-r2{
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 30px solid white;
+	position: absolute;
+	margin-left: 240px;
+	margin-top: 210px;
+}
+.bell-bottom{
+	border-bottom: 150px solid orange;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	height: 0;
+	width: 100px;
+	position: absolute;
+	margin-top: 270px;
+	margin-left: 105px;	
+}
+.bell-top1{
+	position: absolute;
+	width: 100px;
+	height: 20px;
+	background: orange;
+	margin-left: 135px;
+	margin-top: 245px;
+}
+.bell-top2{
+	position: absolute;
+	width: 60px;
+	height: 25px;
+	background: orange;
+	margin-left: 155px;
+	margin-top: 215px;
+}
+.bell-top3{
+	position: absolute;
+	width: 40px;
+	height: 45px;
+	background: orange;
+	margin-left: 165px;
+	margin-top: 150px;	
+}
+.bell-top4{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: orange;
+	margin-left: 165px;
+	margin-top: 100px;
+	border-top: 5px solid #003366;
+}
+.bell-roof{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: green;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	margin-left: 165px;
+	margin-top: 80px;
+}
+.bell-roof1{
+	border-bottom: 12px solid green;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	height: 0;
+	width: 40px;
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 155px;	
+}
+.bell-clock{
+	/*position: absolute;*/
+	width: 35px;
+	height: 35px;
+	background: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	margin: 0 auto;
+	margin-top: 5px;
+
+}
+.bell-window{
+	width: 35px;
+	height: 35px;
+	background: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+.bell-windowe{
+	width: 35px;
+	height: 18px;
+	background: orange;
+	z-index: 1;
+	margin: 0 auto;
+	margin-top: -18px;
+
+
+}
+.bell-arm1{
+	width: 10px;
+	height: 2px;
+	background: black;
+	position: absolute;
+	margin-left: 16px;
+	margin-top: 17px;
+
+
+}
+.bell-arm2{
+	width: 3px;
+	height: 15px;
+	background: black;
+	position: absolute;
+	margin-left: 16px;
+	margin-top: 17px;
+}
